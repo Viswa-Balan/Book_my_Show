@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    height: 60px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0px 49px;
+}
+.logo>img{
+    height: 110px; 
+}
+.serach>input{
+    width:700px;
+    height: 25px;
+    color:black;
+    font-size:15px;
+    border:0.1px;
+    border-color:rgb(248, 227, 211);
+    border-radius: 5px;
+    border-style:solid;
+    margin: 0px;
+    text-align:center;
+}
+.location>select{
+    background-color: white;
+    color:black;
+    font-size: 15px;
+    border: none;
+}
+.option{
+    background-color: rgb(243, 61, 97);
+    color:white;
+    border: none;
+   font-size:small;
+   padding:3px 5px;
+   border-radius:3px;
+   cursor: pointer;
+}
+.option:hover{
+    background-color:rgba(247, 4, 53, 0.863);
+}
+.navlink{
+    display:flex;
+    justify-content:space-between;
+    padding:0px 100px;
+    height:40px;
+    align-items: center;
+    background-color:ghostwhite;
+}
+.navlink a{
+    text-decoration:none;
+    font-size: smaller;
+    font-family:sans-serif;
+    color:black;
+    margin: 0px 5px;
+}
+.section1{
+     margin:20px;
+}
+.section1 img{
+    border-radius:10px;
+}
+.section1 img:hover{
+    cursor: pointer;
+}
+.section2 img{
+    margin-top:40px;
+    margin-bottom:35px;
+    border-radius:10px;
+    cursor:pointer;
+}
+.text1{
+    display:flex;
+    justify-content:space-between;
+    padding:0px 110px;
+}
+.h1text1{
+    font-family:sans-serif;
+    cursor:default;
+}
+.text1 a{
+    color:red;
+    text-decoration: none;
+}
+.section3 img{
+    border-radius:10px;
+    cursor: pointer;
+}
+.section3 img:hover{
+  height: 390px;
+  width: 240px;
+}
+.image1{
+    border-radius:10px;
+    height:380px;
+    width: 230px;
+    margin:10px 10px; 
+    position: relative;
+    left: 100px;
+}
+.image2{
+    height:380px;
+    width: 230px;
+    margin:10px;
+    position: relative;
+    left: 100px;
+}
+.image3{
+    height:380px;
+    width: 230px;
+    margin:10px;
+    position: relative;
+    left: 100px;
+}
+.image4{
+    height:380px;
+    width: 230px;
+    margin:10px;
+    position: relative;
+    left: 100px;
+}
+.image5{
+    height:380px;
+    width: 230px;
+    margin:10px;
+    position: relative;
+    left: 100px;
+}
+.moviename{
+    display:flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+   color: rgba(0, 0, 0, 0.881);
+   cursor: pointer;
+}
+.saalar{
+    position: relative;
+    left: 110px;
+}
+.Dunki{
+    position: relative;
+    left: -59px;
+}
+.Aquaman{
+    position: relative;
+    left: -68px;
+    width: 220px;
+}
+.Animal{
+    position: relative;
+    left: -249px;  
+}
+.HiNanna{
+    position: relative;
+    left: -267px;
+}
+.movienametitle{
+    display:flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+   color: rgba(128, 128, 128, 0.836);
+    cursor: pointer; 
+}
+.saalar1{
+    position: relative;
+    left: 110px;
+    margin-top:-13px;  
+}
+.Dunki1{
+    position: relative;
+    left: 89px;
+    margin-top:-13px; 
+}
+.Aquaman1{
+    position: relative;
+    left: 50px;
+    width: 220px;
+    margin-top: 5px;
+}
+.Animal1{
+    position: relative;
+    left: -95px;
+    margin-top:-13px;  
+}
+.HiNanna1{
+    position: relative;
+    left: -168px;
+    margin-top:-13px;
+}
+#searchiocn{
+    height:15px;
+    width: 15px;
+    z-index:1px;
+   position: relative;
+   left:25px;
+}
+.serach input::placeholder{
+      transform: translate(25px);
+}
+.addimg1{
+    width:1270px;
+    height:90px;
+    margin-top:70px;
+    margin-bottom: 60px;
+}
+.eventstext2{
+    position:relative;
+    left:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:default;
+}
+.eventimg{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 110px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom:50px;
+}
+.eventimg img{
+    width: 200px;
+    border-radius:10px;
+}
+.englishmovie{
+    background-color: rgb(43, 49, 72);
+}
